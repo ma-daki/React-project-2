@@ -5,7 +5,7 @@ import heroImg from '../assets/heroImg.png'
 
 function Hero() {
   return (
-    <div className='flex flex-col lg:flex-row items-center mt-6 lg:mt-20 overflow-hidden'>
+    <div id="hero" className='flex flex-col lg:flex-row items-center mt-6 lg:mt-20 overflow-hidden'>
       <motion.div 
         variants={STAGGER_CONTAINER}
         initial="hidden"

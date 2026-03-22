@@ -5,6 +5,7 @@ import { STAGGER_CONTAINER, FADE_UP, BUTTON_INTERACTIONS, SCROLL_REVEAL_CONFIG }
 const Footer = () => {
   return (
     <motion.div 
+      id="contact"
       variants={STAGGER_CONTAINER}
       initial="hidden"
       whileInView="show"

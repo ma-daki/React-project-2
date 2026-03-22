@@ -5,7 +5,7 @@ import ImageCardStack from './ImageCardStack'
 
 const MidSection = () => {
   return (
-    <div className='my-20 w-full overflow-hidden'>
+    <div id="collection" className='my-20 w-full overflow-hidden'>
       <motion.div 
         variants={STAGGER_CONTAINER}
         initial="hidden"

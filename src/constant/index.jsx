@@ -13,9 +13,9 @@ import { GlobeLock } from "lucide-react";
 // import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Home", href: "#" },
-  { label: "Collection", href: "#" },
-  { label: "Contact Us", href: "#" },
+  { label: "Home", href: "#hero" },
+  { label: "Collection", href: "#collection" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 // export const testimonials = [
